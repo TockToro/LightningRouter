@@ -37,7 +37,8 @@ pub unsafe extern "C" fn start_simple_udp_proxy(
         Err(_) => {
             return false;
         }
-    };
+    }
+    .to_string();
     let (killer, mut killed) = oneshot::channel::<()>();
     let input_listener = match std::net::TcpListener::bind("0.0.0.0:51820") {
         Ok(l) => l,

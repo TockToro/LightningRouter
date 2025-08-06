@@ -15,9 +15,22 @@
 		19785ED02E42E7B700C6C1F9 /* LightningRouterRS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LightningRouterRS.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		19C804FB2E43F472009A3853 /* Exceptions for "LightningRouter" folder in "LightningRouter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 19785E652E4292E400C6C1F9 /* LightningRouter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		19785E682E4292E400C6C1F9 /* LightningRouter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				19C804FB2E43F472009A3853 /* Exceptions for "LightningRouter" folder in "LightningRouter" target */,
+			);
 			path = LightningRouter;
 			sourceTree = "<group>";
 		};
@@ -260,6 +273,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LightningRouter/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -299,6 +313,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LightningRouter/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
