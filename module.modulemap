@@ -1,0 +1,5 @@
+module LightningRouterRS {
+  header "lightning_router_rs.h"
+  export *
+}
+
